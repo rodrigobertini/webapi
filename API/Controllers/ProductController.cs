@@ -11,7 +11,12 @@ namespace API.Controllers
     public class ProductController : ApiController
     {
 
-        static List <Product> listaProdutos = new List <Product>();
+        static List <Product> listaProdutos = new List <Product>(){
+            new Product {Id =1 , Name ="Yo-yo", Category = "Brinquedos", Price=2.50m};
+            new Product {Id = , Name ="Antivirus", Category = "Software", Price=90m};
+            new Product {Id = , Name ="Placa de Vídeo", Category = "Hardware", Price=300m};
+            
+        }
  
         
         //public ProductController - metodo construtor
